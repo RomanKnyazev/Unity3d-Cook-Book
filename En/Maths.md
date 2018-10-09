@@ -1,4 +1,4 @@
-## Random item from loot pool.
+## Random item from loot pool
 ```csharp
 public interface IRandom {
     float returnChance { get; }
