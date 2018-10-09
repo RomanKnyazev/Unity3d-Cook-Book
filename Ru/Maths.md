@@ -3,8 +3,9 @@
 public interface IRandom {
     float returnChance { get; }
 }
+```
 
-public static partial class FrameworkExtensions{
+```csharp
 private static System.Random _r = new System.Random();
 public static T GetRandom<T>(this T[] vals) where T : IRandom
         {
@@ -26,7 +27,7 @@ public static T GetRandom<T>(this T[] vals) where T : IRandom
             }
             return vals[0];
         }
-}
+        
 ```
 #### Пример
 [![Image from Gyazo](https://i.gyazo.com/cf4ef1ab0f827b0249f04dc04d83db94.png)](https://gyazo.com/cf4ef1ab0f827b0249f04dc04d83db94)
