@@ -1,5 +1,5 @@
 # Unity3d-Cook-Book
-A book with different tecniques used in Unity3d
+A book with different tecniques used in Unity3d and ACTORS framework
 
 
 ## Other content
